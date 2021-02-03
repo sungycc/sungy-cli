@@ -1,0 +1,19 @@
+{
+  "name": "sungy-cli",
+  "version": "0.0.1",
+  "description": "Quickly build a new application based on vue or react",
+  "bin": {
+    "sungy": "bin/sungy"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:sungycc/sungy-cli.git",
+  "author": "sungycc <839664717@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run lint && npm run e2e",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^7.0.0"
+  }
+}
